@@ -1,8 +1,7 @@
 /*
-Originally From [Azula]
-Anyways, this is a snippet for Scanning specific files and displaying the amount (int) of lines in said file.
-this can be used in other snippets simply by doing || GetLdap();
-Enjoy ~ Cri
+A snippet for scanning specific files and displaying the amount (int) of lines in said files.
+
+Can be used in other snippets simply by doing || GetLdap();
 */
  
 char GetLdap()
