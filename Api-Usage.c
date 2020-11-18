@@ -1,14 +1,12 @@
 /*
-After seeing how bad the past 'API' Functions were that have been released, once again. i made my own.
-this is directly from [azula]
-Rather than needing an actual API On the server (php script) to make the calls, you can do it simply by making api requests
-to public or private api services. such as api.c99.nl.
+For this, you won't be needing an actual API/php script on the server to make the calls. You can now do it simply by making API requests to public or private API services, such as api.c99.nl
  
-you will need a snippet of code for this that will parse out the Response Headers so it will only accept the Response Body.
-this can be found on this current repo under 'headers'
+However, you'll need a snippet of code that will parse out the 'Response Headers' so it will only accept the 'Response Body' 
+
+This can easily be found on this current repo under 'headers'
 named: replace.h
-Enjoy ~ Cri
 */
+
 char Geolocate()         {
   fflush(stdin);
   char APBuffer[2048];
