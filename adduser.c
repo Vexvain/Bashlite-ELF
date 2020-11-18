@@ -1,11 +1,11 @@
 /*
-Original Snippet From [Azula]
-Simple AddUser Function. 
-Three User Inputs [InputName, InputPass, InputType]
-Process the UserInput and automatically forward said responses to LoginFile.
-in this case 'L'
-enjoy ~ Cri
+An AddUser function 
+
+Three user inputs: [InputName, InputPass, InputType]
+
+Process the UserInput and automatically forward the responses to LoginFile, which would be 'L' by default
 */
+
 if(strstr(buf, "adduser")) 
 {
         char abuf[2048]; char *inputtosystem[50]; char InputName[80]; char InputPass[80]; char InputType[80];
