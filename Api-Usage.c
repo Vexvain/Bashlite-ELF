@@ -3,8 +3,7 @@ For this, you won't be needing an actual API/php script on the server to make th
  
 However, you'll need a snippet of code that will parse out the 'Response Headers' so it will only accept the 'Response Body' 
 
-This can easily be found on this current repo under 'headers'
-named: replace.h
+This can easily be found on this current repo under 'headers' named: replace.h
 */
 
 char Geolocate()         {
