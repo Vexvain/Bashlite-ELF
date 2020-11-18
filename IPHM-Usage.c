@@ -1,11 +1,13 @@
 /*
-Original Snippet From [Azula]
-Four user Inputs [InputIP, InputPort, InputThreads, InputTime]
+Four user inputs: [InputIP, InputPort, InputThreads, InputTime]
+
 Process the response of each UserInput and Print to system as a command.
-The & at the end of said function is to make our command run in the background. basically in a 'subshell'
-This ensures the users who run this command will not have their current Window Freeze
-Enjoy ~ Cri
+
+The '&' at the end of the function is to make our command run in the background, essentially in a 'subshell'
+
+This certifies that the users who run this command will not have their current window freeze up
 */
+
 if(strstr(buf, "ldap"))
 {   
     char abuf[2048]; char *inputtosystem[100]; char InputIP[25]; char InputPort[6]; char InputThreads[5]; char InputTime[6];
