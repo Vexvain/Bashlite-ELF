@@ -1,0 +1,1 @@
+AMP Snippet goes inside the ProcessCMD along with the Install snippet!
