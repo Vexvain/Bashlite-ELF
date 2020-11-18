@@ -1,8 +1,7 @@
 /*
-Original Snippet From [Azula]
-Simple Snippet for taking user input(IP) and printing to system with a prewritten line to kill and disable any current/future connections towards a specific IP Address
-Simply just a 'ban' function.
-enjoy ~ Cri
+A snippet for taking user input(IP) and printing it to a system with a prewritten line, killing and disabling any current/future connections towards a specific IP Address
+
+Simply just a 'ban' function
 */
 
 if(strstr(buf, "ban"))
